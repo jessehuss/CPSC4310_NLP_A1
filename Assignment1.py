@@ -3,6 +3,10 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer, LancasterStemmer
 from nltk import WordNetLemmatizer
 
+# Name: Jesse Huss
+# ID: 001209444
+# Project: Assignment 1
+
 stopWords = set(stopwords.words('english'))
 wln = WordNetLemmatizer()
 lemmatizer = WordNetLemmatizer()
